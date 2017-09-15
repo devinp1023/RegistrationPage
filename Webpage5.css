@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body{
+	background-color: black;
+	font-family: 'Oswald', 'Futura', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#page{
+	
+	background-color: #403c3b;
+	margin: 50 400 40 400;
+	border: 1px solid white;
+}
+
+#logo {
+	background-image: url(https://static1.squarespace.com/static/598a201646c3c4323c7f9669/t/59a59978cd39c3900264ae4d/1504024956904/Lion+Logo+-+Small.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	text-indent: -1000%;
+	height: 75px;
+	line-height: 75px;
+	width: 117px;
+	margin: 0 auto 0 auto;
+	padding: 30px 10px 20px 10px;
+}
+
+h1 {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	margin: 0 0 23px 0;
+}
+
+form{
+	padding: 0 60 65 60;
+}
+
+label{
+	color: #fff;
+	display: block;
+	margin: 10 0 10 0;
+	font-size: 24px;
+}
+
+input{
+	background-color: #999;
+	color: #666;
+	font-family: 'Oswald', 'Futura', sans-serif;
+	font-size: 24px;
+	width: 96%;
+	padding: 4px 6px;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+
+input:focus{
+	border: solid 1px red;
+	background-color: white;
+	outline: none;
+}
+
+#submit{
+	background-color: #ff6666;
+	color: white;
+	border-radius: 5px;
+	padding: 8px 10px;
+	text-align: center;
+	margin-top: 20px;
+	float: right;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100;
+}
+
+#submit:hover{
+	background-color: red;
+	color: white;
+	top:1px;
+}
+
+
+
+
+
+
+
+
